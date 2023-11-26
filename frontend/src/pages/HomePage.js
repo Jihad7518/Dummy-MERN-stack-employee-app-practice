@@ -113,3 +113,34 @@ const HomePage = () => {
                                 alt=""
                               />
                             </div>
+                            <div className="ml-4">
+                              <div className="text-sm font-medium text-gray-900 dark:text-white">
+                                {person.name}
+                              </div>
+                              <div className="text-sm text-gray-500 dark:text-gray-300">
+                                {person.email}
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                        <td className="px-12 py-4 whitespace-nowrap">
+                          <div className="text-sm text-gray-900 dark:text-white">
+                            {person.title}
+                          </div>
+                          <div className="text-sm text-gray-500 dark:text-gray-300">
+                            {person.department}
+                          </div>
+                        </td>
+
+                        <td className="px-4 py-4 whitespace-nowrap text-sm text-gray-500 dark:text-gray-300">
+                          {person.role}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
