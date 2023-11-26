@@ -51,6 +51,7 @@ const HomePage = () => {
   console.log(empData);
 
   // console.log(empData);
+
   return (
     <>
       <section className="container px-4 mx-auto py-4">
@@ -144,3 +145,8 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+    </>
+  );
+};
+
+export default HomePage;
